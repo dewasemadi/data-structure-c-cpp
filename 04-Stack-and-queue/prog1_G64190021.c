@@ -3,7 +3,6 @@
 #define STACKSIZE 100
 #define TRUE 1
 #define FALSE 0
-
 typedef struct stack
 {
     int item[STACKSIZE], top;
