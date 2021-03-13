@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-struct node
+typedef struct node
 {
     int info;
     struct node *next;
-};
-typedef struct node *NODEPTR;
+} * NODEPTR;
 
 NODEPTR list = NULL;
 
