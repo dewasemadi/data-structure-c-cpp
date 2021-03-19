@@ -40,7 +40,7 @@ void printArr(int arr[], int n)
 
 void main()
 {
-    int arr[1000], c = 0, n = 0, count = 0, num;
+    int arr[1000], c = 0, n = 0, num;
     FILE *myFile;
     myFile = fopen("input.txt", "r");
 
